@@ -38,17 +38,19 @@ public class Player : MonoBehaviour
             spriteRenderer.flipX = false;
         }
     }
-   /* private bool isGrounded()
-    {
-        return Isgrounded();
-    }*/
+    /* private bool isGrounded()
+     {
+         return Isgrounded();
+     }*/
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Base")
             Isgrounded = true;
-
-        if (collision.gameObject.tag == "Base")
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
             Debug.Log("Collision with plant");
     }
     private void OnCollisionExit2D(Collision2D collision)
