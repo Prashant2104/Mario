@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
-    public float speed = 10f;
+    public float speed = 6f;
     public float jumpspeed = 5f;
     private bool Isgrounded = true;
     private Rigidbody2D rigidBody2D;
@@ -51,7 +51,10 @@ public class Player : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Enemy")
+        {
             Debug.Log("Collision with plant");
+            SceneManager.LoadScene("GameOver");
+        }
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
