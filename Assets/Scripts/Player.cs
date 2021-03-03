@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
     public float jumpspeed = 5;
     public Sprite jump;
     public Sprite stand;
-    public Transform transform;
+    //public Transform transform;
 
     private bool Isgrounded = true;
     private Rigidbody2D rigidBody2D;
@@ -80,6 +80,7 @@ public class Player : MonoBehaviour
         }            
     }
 
+  /*
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Head")
@@ -87,5 +88,6 @@ public class Player : MonoBehaviour
             Debug.Log("Collision with head");
             Destroy(transform.gameObject);
         }
-    }
+    } 
+  */
 }

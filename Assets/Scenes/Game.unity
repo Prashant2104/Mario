@@ -610,7 +610,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 0.20982812
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -2364,6 +2364,7 @@ GameObject:
   - component: {fileID: 1426799509}
   - component: {fileID: 1426799511}
   - component: {fileID: 1426799510}
+  - component: {fileID: 1426799512}
   m_Layer: 0
   m_Name: Head
   m_TagString: Head
@@ -2461,6 +2462,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1426799512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426799508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ee62997484aab643a89a77eea41adf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trans: {fileID: 1950578304}
 --- !u!1 &1476414996
 GameObject:
   m_ObjectHideFlags: 0
@@ -2472,6 +2486,7 @@ GameObject:
   - component: {fileID: 1476414997}
   - component: {fileID: 1476414998}
   - component: {fileID: 1476414999}
+  - component: {fileID: 1476415000}
   m_Layer: 0
   m_Name: Head
   m_TagString: Head
@@ -2569,6 +2584,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.2950954, y: 2.817071}
   m_EdgeRadius: 0
+--- !u!114 &1476415000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476414996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ee62997484aab643a89a77eea41adf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trans: {fileID: 505442912}
 --- !u!1 &1490096216
 GameObject:
   m_ObjectHideFlags: 0
@@ -3588,7 +3616,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 0.20982812
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -3996,7 +4024,7 @@ GameObject:
   - component: {fileID: 2131492499}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4017,7 +4045,6 @@ MonoBehaviour:
   jumpspeed: 5
   jump: {fileID: 21300000, guid: 36de059b552eda14da0bbd3cc86ba6fd, type: 3}
   stand: {fileID: 21300000, guid: 4de4c01142d965d49b3981603364c11a, type: 3}
-  transform: {fileID: 774823509}
 --- !u!50 &2131492495
 Rigidbody2D:
   serializedVersion: 4

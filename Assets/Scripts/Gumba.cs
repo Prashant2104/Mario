@@ -36,5 +36,6 @@ public class Gumba : MonoBehaviour
             speed = speed * -1;
             spriteRenderer.flipX = true;
         }
+
     }
 }
