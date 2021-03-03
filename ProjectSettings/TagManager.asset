@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Base
   - Enemy
+  - Flip
+  - Base_t
+  - Head
   layers:
   - Default
   - TransparentFX

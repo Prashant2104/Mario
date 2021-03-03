@@ -11,4 +11,10 @@ public class Menu : MonoBehaviour
         Debug.Log("Play");
         SceneManager.LoadScene("Game");
     }
+    public void OnPlayButtonClick()
+    {
+        // TODO
+        Debug.Log("Play");
+        SceneManager.LoadScene("Game");
+    }
 }

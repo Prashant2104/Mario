@@ -4,11 +4,16 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
-    public float speed = 6f;
-    public float jumpspeed = 5f;
+    public float speed = 6;
+    public float jumpspeed = 5;
+    public Sprite jump;
+    public Sprite stand;
+    public Transform transform;
+
     private bool Isgrounded = true;
     private Rigidbody2D rigidBody2D;
     private SpriteRenderer spriteRenderer;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +30,16 @@ public class Player : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space) && Isgrounded == true)
         {
             rigidBody2D.velocity = new Vector2(rigidBody2D.velocity.x, jumpspeed);
+
+            spriteRenderer.sprite = jump;
+        }
+        if (Isgrounded == false)
+        {
+            spriteRenderer.sprite = jump;
+        }
+        else
+        {
+            spriteRenderer.sprite = stand;
         }
 
         if (h < 0)
@@ -45,20 +60,32 @@ public class Player : MonoBehaviour
 
     private void OnCollisionStay2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Base")
+        if (collision.gameObject.tag == "Base" || collision.gameObject.tag == "Base_t")
             Isgrounded = true;
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Enemy")
         {
-            Debug.Log("Collision with plant");
-            SceneManager.LoadScene("GameOver");
+            Debug.Log("Collision with enemy");
+           // SceneManager.LoadScene("GameOver");
         }
+               
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Base")
+        if (collision.gameObject.tag == "Base" || collision.gameObject.tag == "Base_t")
+        {
             Isgrounded = false;
+        }            
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Head")
+        {
+            Debug.Log("Collision with head");
+            Destroy(transform.gameObject);
+        }
     }
 }
