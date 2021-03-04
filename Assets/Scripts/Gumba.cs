@@ -25,16 +25,24 @@ public class Gumba : MonoBehaviour
         if (collision.gameObject.tag == "Base_t")
         {
             speed = speed * -1;
-            spriteRenderer.flipX = true;
+            spriteRenderer.flipX = false;
+           // transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x) * -1, transform.localScale.y, transform.localScale.z);
         }
-        
+
+        if (collision.gameObject.tag == "Base_t1")
+        {
+            speed = speed * -1;
+            spriteRenderer.flipX = true;
+            // transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x) * -1, transform.localScale.y, transform.localScale.z);
+        }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Base_t")
         {
             speed = speed * -1;
-            spriteRenderer.flipX = true;
+            spriteRenderer.flipX = false;
+            //transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x) * -1, transform.localScale.y, transform.localScale.z);
         }
 
     }

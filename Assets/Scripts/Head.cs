@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class Head : MonoBehaviour
 {
+    private AudioSource audioSource;
     public Transform trans;
-   // public Transform player;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -23,7 +24,8 @@ public class Head : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             Debug.Log("Collision");
-            Destroy(trans.gameObject);
+            audioSource.Play();
+            Destroy(trans.gameObject);            
         }
     }
 
