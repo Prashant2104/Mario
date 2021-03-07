@@ -16,7 +16,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D rigidBody2D;
     private SpriteRenderer spriteRenderer;
     private AudioSource audioSource;
-    private AudioSource audioSource1;
+    private Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +24,7 @@ public class Player : MonoBehaviour
         rigidBody2D = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         audioSource = GetComponent<AudioSource>();
-        audioSource1 = GetComponent<AudioSource>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -37,13 +37,25 @@ public class Player : MonoBehaviour
         {
             rigidBody2D.velocity = new Vector2(rigidBody2D.velocity.x, jumpspeed);
         }
-        if (Input.GetKey(KeyCode.Space) && Isgrounded == false)
+
+        if (Input.GetKey(KeyCode.Space) || Isgrounded == false)
         {
-            spriteRenderer.sprite = jump;
+            //spriteRenderer.sprite = jump;
+            animator.SetBool("Jump", true);
         }
         else
         {
-            spriteRenderer.sprite = stand;
+            //spriteRenderer.sprite = stand;
+            animator.SetBool("Jump", false);
+        }
+
+        if(h <= -0.5 && Isgrounded == true || h >= 0.5 && Isgrounded == true)
+        {
+            animator.SetBool("Run", true);
+        }
+        else
+        {
+            animator.SetBool("Run", false);
         }
 
         if (h < 0)
@@ -56,6 +68,8 @@ public class Player : MonoBehaviour
             //transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x) * 1, transform.localScale.y, transform.localScale.z);
             spriteRenderer.flipX = false;
         }
+
+        //Debug.Log(rigidBody2D.velocity);
     }
 
     private void OnCollisionStay2D(Collision2D collision)
@@ -67,10 +81,11 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy")
         {
-            audioSource1.Play();
+            animator.SetBool("Die", true);
+            Invoke("Delay", 2);   
             Debug.Log("Collision with enemy");
             SceneManager.LoadScene("GameOver");
-        }              
+        }        
     }
     private void OnCollisionExit2D(Collision2D collision)
     {

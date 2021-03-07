@@ -10,7 +10,6 @@ TagManager:
   - Base_t
   - Head
   - Coin
-  - Base_t1
   layers:
   - Default
   - TransparentFX
