@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
     public Sprite stand;
     public float score = 0;
     public Text ScoreText;
+    public AudioClip[] clips = new AudioClip[5];
 
     private bool Isgrounded = true;
     private Rigidbody2D rigidBody2D;
@@ -82,7 +83,8 @@ public class Player : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             animator.SetBool("Die", true);
-            Invoke("Delay", 2);   
+            audioSource.clip = clips[1];
+            audioSource.Play();
             Debug.Log("Collision with enemy");
             SceneManager.LoadScene("GameOver");
         }        
@@ -102,8 +104,18 @@ public class Player : MonoBehaviour
             score++;
             Debug.Log(score);
             ScoreText.text = score.ToString();
+            audioSource.clip = clips[0]; 
             audioSource.Play();
             Destroy(collision.gameObject);
+        }
+
+        if (collision.gameObject.tag == "Head")
+        {
+            score++;
+            Debug.Log(score);
+            ScoreText.text = score.ToString();
+            audioSource.clip = clips[2];
+            audioSource.Play();
         }
     }
 }
