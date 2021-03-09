@@ -109,6 +109,16 @@ public class Player : MonoBehaviour
             Destroy(collision.gameObject);
         }
 
+        if (collision.gameObject.tag == "Coin_b")
+        {
+            score++;
+            Debug.Log(score);
+            ScoreText.text = score.ToString();
+            audioSource.clip = clips[0];
+            audioSource.Play();
+            //Destroy(collision.gameObject);
+        }
+
         if (collision.gameObject.tag == "Head")
         {
             score++;
