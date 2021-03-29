@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Block : MonoBehaviour
 {
-    public int count = 0;
+    public int count = 1;
     private Animator animator;
     // Start is called before the first frame update
     void Start()
@@ -25,10 +25,10 @@ public class Block : MonoBehaviour
             animator.SetBool("Jump", true);
             count++;
         }
-         
-        if(count == 5)
+
+        if(count >= 5)
         {
-            Destroy(gameObject);
+            animator.SetBool("Count", true);
         }
     }
 
@@ -42,15 +42,13 @@ public class Block : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if(count < 5)
         {
-            animator.SetBool("Jump", true);
-            count++;
-        }
-
-        if (count == 5)
-        {
-            Destroy(gameObject);
+            if (collision.gameObject.tag == "Player")
+            {
+                animator.SetBool("Jump", true);
+                count++;
+            }
         }
     }
 

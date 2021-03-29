@@ -6,10 +6,11 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     public float speed = 6;
-    public float jumpspeed = 5;
+    public float jumpspeed = 6.5f;
     public Sprite jump;
     public Sprite stand;
     public float score = 0;
+    public int c = 1;
     public Text ScoreText;
     public AudioClip[] clips = new AudioClip[5];
 
@@ -50,7 +51,7 @@ public class Player : MonoBehaviour
             animator.SetBool("Jump", false);
         }
 
-        if(h <= -0.5 && Isgrounded == true || h >= 0.5 && Isgrounded == true)
+        if(h <= -0.1 && Isgrounded == true || h >= 0.1 && Isgrounded == true)
         {
             animator.SetBool("Run", true);
         }
@@ -69,7 +70,6 @@ public class Player : MonoBehaviour
             //transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x) * 1, transform.localScale.y, transform.localScale.z);
             spriteRenderer.flipX = false;
         }
-
         //Debug.Log(rigidBody2D.velocity);
     }
 
@@ -87,7 +87,7 @@ public class Player : MonoBehaviour
             audioSource.Play();
             Debug.Log("Collision with enemy");
             SceneManager.LoadScene("GameOver");
-        }        
+        }
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
@@ -111,12 +111,15 @@ public class Player : MonoBehaviour
 
         if (collision.gameObject.tag == "Coin_b")
         {
-            score++;
-            Debug.Log(score);
-            ScoreText.text = score.ToString();
-            audioSource.clip = clips[0];
-            audioSource.Play();
-            //Destroy(collision.gameObject);
+            if (c < 5)
+            {
+                score++;
+                Debug.Log(score);
+                ScoreText.text = score.ToString();
+                audioSource.clip = clips[0];
+                audioSource.Play();
+                c += 1;
+            }          
         }
 
         if (collision.gameObject.tag == "Head")
