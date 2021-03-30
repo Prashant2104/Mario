@@ -29,12 +29,12 @@ public class Gumba : MonoBehaviour
             transform.localScale = new Vector3((transform.localScale.x) * -1, transform.localScale.y, transform.localScale.z);
         }
 
-        if (collision.gameObject.tag == "Base_t1")
+       /* if (collision.gameObject.tag == "Base_t1")
         {
             speed = speed * -1;
             //spriteRenderer.flipX = true;
             transform.localScale = new Vector3((transform.localScale.x) * -1, transform.localScale.y, transform.localScale.z);
-        }
+        }*/
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {

@@ -11,6 +11,7 @@ TagManager:
   - Head
   - Coin
   - Coin_b
+  - Flower
   layers:
   - Default
   - TransparentFX

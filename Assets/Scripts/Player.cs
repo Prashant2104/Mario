@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     public float jumpspeed = 6.5f;
     public Sprite jump;
     public Sprite stand;
+    public Sprite Mario_up;
     public float score = 0;
     public int c = 1;
     public Text ScoreText;
@@ -87,6 +88,10 @@ public class Player : MonoBehaviour
             audioSource.Play();
             Debug.Log("Collision with enemy");
             SceneManager.LoadScene("GameOver");
+        }
+        if (collision.gameObject.tag == "Flower")
+        {
+            spriteRenderer.sprite = Mario_up;
         }
     }
     private void OnCollisionExit2D(Collision2D collision)
