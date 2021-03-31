@@ -17,4 +17,9 @@ public class Menu : MonoBehaviour
         Debug.Log("Play");
         SceneManager.LoadScene("Game");
     }
+    public void OnExitButtonPress()
+    {
+        UnityEditor.EditorApplication.isPlaying = false;
+        Application.Quit();
+    }
 }

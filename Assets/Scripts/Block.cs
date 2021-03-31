@@ -8,9 +8,11 @@ public class Block : MonoBehaviour
 
     private int count = 0;
     private Animator animator;
+    private SpriteRenderer spriteRenderer;
     void Start()
     {
         animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -19,16 +21,20 @@ public class Block : MonoBehaviour
         {
             Vector2 direction = collision.GetContact(0).normal;
             if (direction.y == 1)
-            {               
-                animator.SetBool("Jump", true);
-                this.gameObject.GetComponentInChildren<Coin>().Coin_up();
-                count++;
+            {
+                if (count < c)
+                {
+                    animator.SetBool("Jump", true);
+                    this.gameObject.GetComponentInChildren<Coin>().Special();
+                    count++;
+                }
             }
         }
 
         if (count >= c)
         {
             animator.SetBool("Count", true);
+            spriteRenderer.enabled = true;
         }
     }
 

@@ -5,16 +5,20 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
-    public float speed = 6;
+    public float velocity = 6;
     public float jumpspeed = 6.5f;
-    public Sprite jump;
-    public Sprite stand;
-    public Sprite Mario_up;
+    //public Sprite jump;
+    //public Sprite stand;
+    //public Sprite Mario_up;
     public static float score = 0;
     public int c = 1;
+    public static int coin = 0;
     public Text ScoreText;
+    public Text CoinText;
     public AudioClip[] clips = new AudioClip[5];
+    public Sprite[] sprites = new Sprite[2];
 
+    private float speed;
     private bool Isgrounded = true;
     private Rigidbody2D rigidBody2D;
     private SpriteRenderer spriteRenderer;
@@ -24,6 +28,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        score = 0;
         rigidBody2D = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         audioSource = GetComponent<AudioSource>();
@@ -43,12 +48,12 @@ public class Player : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Space) || Isgrounded == false)
         {
-            speed = 3;
+            speed = velocity/2;
             animator.SetBool("Jump", true);
         }
         else
         {
-            speed = 6;
+            speed = velocity;
             animator.SetBool("Jump", false);
         }
 
@@ -97,19 +102,15 @@ public class Player : MonoBehaviour
             Debug.Log("Collision with enemy");
             SceneManager.LoadScene("GameOver");
         }
-        if (collision.gameObject.tag == "Flower")
-        {
-            spriteRenderer.sprite = Mario_up;
-        }
 
-        if (Input.GetKey(KeyCode.Space) && collision.gameObject.tag == "Base" || Input.GetKey(KeyCode.Space) && collision.gameObject.tag == "Base_t")
+       /* if (Input.GetKey(KeyCode.Space) && collision.gameObject.tag == "Base" || Input.GetKey(KeyCode.Space) && collision.gameObject.tag == "Base_t")
         {
             Vector2 direction = collision.GetContact(0).normal;
             if (direction.y == 1)
             {
                 rigidBody2D.velocity = new Vector2(rigidBody2D.velocity.x, jumpspeed);
             }
-        }
+        }*/
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
@@ -123,27 +124,34 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.tag == "Coin")
         {
-            score++;
-            Debug.Log(score);
-            ScoreText.text = score.ToString();
+            score += 10; ;
+            coin++;
+            Debug.Log(score); 
+            ScoreText.text = ("Score: " + score);
+            CoinText.text = ("Coins: " + coin);
             audioSource.clip = clips[0]; 
             audioSource.Play();
             Destroy(collision.gameObject);
         }
 
-        if (collision.gameObject.tag == "Coin_b")
+        if (collision.gameObject.tag == "Flower")
         {
-            Debug.Log(score);
-            ScoreText.text = score.ToString();
+            Destroy(collision.gameObject);
+            spriteRenderer.sprite = sprites[0];
         }
 
         if (collision.gameObject.tag == "Head")
         {
-            score++;
+            score += 5;
             Debug.Log(score);
-            ScoreText.text = score.ToString();
+            ScoreText.text = ("Score: " + score);
             audioSource.clip = clips[2];
             audioSource.Play();
+        }
+
+        if(collision.gameObject.tag == "Castle")
+        {
+            SceneManager.LoadScene("Win");
         }
     }
 }

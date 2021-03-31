@@ -22,7 +22,7 @@ public class Gumba : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Base_t")
+        if (collision.gameObject.tag == "Base_t" || collision.gameObject.tag == "Enemy")
         {
             speed = speed * -1;
            // spriteRenderer.flipX = false;
@@ -38,7 +38,7 @@ public class Gumba : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Base_t")
+        if (collision.gameObject.tag == "Base_t" || collision.gameObject.tag == "Enemy")
         {
             speed = speed * -1;
             //spriteRenderer.flipX = false;

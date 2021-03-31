@@ -12,6 +12,7 @@ TagManager:
   - Coin
   - Coin_b
   - Flower
+  - Castle
   layers:
   - Default
   - TransparentFX
