@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     public Sprite jump;
     public Sprite stand;
     public Sprite Mario_up;
-    public float score = 0;
+    public static float score = 0;
     public int c = 1;
     public Text ScoreText;
     public AudioClip[] clips = new AudioClip[5];
@@ -36,19 +36,19 @@ public class Player : MonoBehaviour
         var h = Input.GetAxis("Horizontal");
         rigidBody2D.velocity = new Vector2(h * speed, rigidBody2D.velocity.y);
 
-        if(Input.GetKey(KeyCode.Space) && Isgrounded == true)
+       /* if(Input.GetKey(KeyCode.Space) && Isgrounded == true)
         {
             rigidBody2D.velocity = new Vector2(rigidBody2D.velocity.x, jumpspeed);
-        }
+        }*/
 
         if (Input.GetKey(KeyCode.Space) || Isgrounded == false)
         {
-            //spriteRenderer.sprite = jump;
+            speed = 3;
             animator.SetBool("Jump", true);
         }
         else
         {
-            //spriteRenderer.sprite = stand;
+            speed = 6;
             animator.SetBool("Jump", false);
         }
 
@@ -63,24 +63,32 @@ public class Player : MonoBehaviour
 
         if (h < 0)
         {
-            //transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x) * -1, transform.localScale.y, transform.localScale.z);
             spriteRenderer.flipX = true;
         }
         else if(h > 0)
         {
-            //transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x) * 1, transform.localScale.y, transform.localScale.z);
             spriteRenderer.flipX = false;
         }
-        //Debug.Log(rigidBody2D.velocity);
     }
 
     private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Base" || collision.gameObject.tag == "Base_t")
             Isgrounded = true;
+
+        if (Input.GetKey(KeyCode.Space) && collision.gameObject.tag == "Base" || Input.GetKey(KeyCode.Space) && collision.gameObject.tag == "Base_t")
+        {
+            Vector2 direction = collision.GetContact(0).normal;
+            if (direction.y == 1)
+            {
+                audioSource.clip = clips[3];
+                audioSource.Play();
+                rigidBody2D.velocity = new Vector2(rigidBody2D.velocity.x, jumpspeed);
+            }
+        }
     }
     private void OnCollisionEnter2D(Collision2D collision)
-    {
+    {        
         if (collision.gameObject.tag == "Enemy")
         {
             animator.SetBool("Die", true);
@@ -92,6 +100,15 @@ public class Player : MonoBehaviour
         if (collision.gameObject.tag == "Flower")
         {
             spriteRenderer.sprite = Mario_up;
+        }
+
+        if (Input.GetKey(KeyCode.Space) && collision.gameObject.tag == "Base" || Input.GetKey(KeyCode.Space) && collision.gameObject.tag == "Base_t")
+        {
+            Vector2 direction = collision.GetContact(0).normal;
+            if (direction.y == 1)
+            {
+                rigidBody2D.velocity = new Vector2(rigidBody2D.velocity.x, jumpspeed);
+            }
         }
     }
     private void OnCollisionExit2D(Collision2D collision)
@@ -116,15 +133,8 @@ public class Player : MonoBehaviour
 
         if (collision.gameObject.tag == "Coin_b")
         {
-            if (c < 5)
-            {
-                score++;
-                Debug.Log(score);
-                ScoreText.text = score.ToString();
-                audioSource.clip = clips[0];
-                audioSource.Play();
-                c += 1;
-            }          
+            Debug.Log(score);
+            ScoreText.text = score.ToString();
         }
 
         if (collision.gameObject.tag == "Head")

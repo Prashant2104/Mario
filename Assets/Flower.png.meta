@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cfb476a3b561ad44aa2553547a5972b9
+guid: 7e31ac207697221449f55305f481fa5f
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -83,6 +83,30 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -90,10 +114,10 @@ TextureImporter:
       name: Flower_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
-        width: 128
-        height: 128
+        x: 5
+        y: 95
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,10 +135,10 @@ TextureImporter:
       name: Flower_1
       rect:
         serializedVersion: 2
-        x: 131
-        y: 1
-        width: 128
-        height: 128
+        x: 95
+        y: 95
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,10 +156,10 @@ TextureImporter:
       name: Flower_2
       rect:
         serializedVersion: 2
-        x: 261
-        y: 1
-        width: 128
-        height: 128
+        x: 5
+        y: 5
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,10 +177,10 @@ TextureImporter:
       name: Flower_3
       rect:
         serializedVersion: 2
-        x: 391
-        y: 1
-        width: 128
-        height: 128
+        x: 95
+        y: 5
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
