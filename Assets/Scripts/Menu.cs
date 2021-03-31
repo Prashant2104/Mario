@@ -19,7 +19,7 @@ public class Menu : MonoBehaviour
     }
     public void OnExitButtonPress()
     {
-        UnityEditor.EditorApplication.isPlaying = false;
+        //UnityEditor.EditorApplication.isPlaying = false;
         Application.Quit();
     }
 }

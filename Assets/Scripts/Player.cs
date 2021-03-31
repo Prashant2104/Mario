@@ -41,10 +41,10 @@ public class Player : MonoBehaviour
         var h = Input.GetAxis("Horizontal");
         rigidBody2D.velocity = new Vector2(h * speed, rigidBody2D.velocity.y);
 
-       /* if(Input.GetKey(KeyCode.Space) && Isgrounded == true)
+       if(Input.GetKey(KeyCode.Space) && Isgrounded == true)
         {
             rigidBody2D.velocity = new Vector2(rigidBody2D.velocity.x, jumpspeed);
-        }*/
+        }
 
         if (Input.GetKey(KeyCode.Space) || Isgrounded == false)
         {
@@ -78,19 +78,29 @@ public class Player : MonoBehaviour
 
     private void OnCollisionStay2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Base" || collision.gameObject.tag == "Base_t")
-            Isgrounded = true;
-
-        if (Input.GetKey(KeyCode.Space) && collision.gameObject.tag == "Base" || Input.GetKey(KeyCode.Space) && collision.gameObject.tag == "Base_t")
+        if (collision.gameObject.tag == "Base" )
         {
+            Vector2 direction = collision.GetContact(0).normal;
+            if (direction.y == 1)
+            {
+                Isgrounded = true;
+            }
+        }
+        if(collision.gameObject.tag == "Base_t")
+        {
+            Isgrounded = true;
+        }
+
+      /*  if (Input.GetKey(KeyCode.Space) && collision.gameObject.tag == "Base")
+        {            
             Vector2 direction = collision.GetContact(0).normal;
             if (direction.y == 1)
             {
                 audioSource.clip = clips[3];
                 audioSource.Play();
                 rigidBody2D.velocity = new Vector2(rigidBody2D.velocity.x, jumpspeed);
-            }
-        }
+            }    
+        }*/
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {        

@@ -1,5 +1,977 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &231343827
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 231343828}
+  - component: {fileID: 231343830}
+  - component: {fileID: 231343829}
+  m_Layer: 0
+  m_Name: stairs (104)
+  m_TagString: Base_t
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &231343828
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231343827}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 41.339, y: 1.510402, z: 224.52228}
+  m_LocalScale: {x: 3.2461376, y: 3.246138, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8887791431351546932}
+  m_RootOrder: 94
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &231343830
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231343827}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.32, y: 0.32}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &231343829
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231343827}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.32, y: 0.32}
+  m_EdgeRadius: 0.001
+--- !u!1 &400036940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400036941}
+  - component: {fileID: 400036943}
+  - component: {fileID: 400036942}
+  m_Layer: 0
+  m_Name: stairs (107)
+  m_TagString: Base_t
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400036941
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400036940}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 40.28, y: 2.530402, z: 224.52228}
+  m_LocalScale: {x: 3.2461376, y: 3.246138, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8887791431351546932}
+  m_RootOrder: 97
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &400036943
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400036940}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.32, y: 0.32}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &400036942
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400036940}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.32, y: 0.32}
+  m_EdgeRadius: 0.001
+--- !u!1 &400790251
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400790252}
+  - component: {fileID: 400790254}
+  - component: {fileID: 400790253}
+  m_Layer: 0
+  m_Name: stairs (100)
+  m_TagString: Base_t
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400790252
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400790251}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 42.318996, y: 0.47640204, z: 224.52228}
+  m_LocalScale: {x: 3.2461376, y: 3.246138, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8887791431351546932}
+  m_RootOrder: 90
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &400790254
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400790251}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.32, y: 0.32}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &400790253
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400790251}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.32, y: 0.32}
+  m_EdgeRadius: 0.001
+--- !u!1 &841954001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 841954002}
+  - component: {fileID: 841954004}
+  - component: {fileID: 841954003}
+  m_Layer: 0
+  m_Name: stairs (103)
+  m_TagString: Base_t
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &841954002
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841954001}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 42.318996, y: 1.510402, z: 224.52228}
+  m_LocalScale: {x: 3.2461376, y: 3.246138, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8887791431351546932}
+  m_RootOrder: 93
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &841954004
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841954001}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.32, y: 0.32}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &841954003
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841954001}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.32, y: 0.32}
+  m_EdgeRadius: 0.001
+--- !u!1 &1094350342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1094350343}
+  - component: {fileID: 1094350345}
+  - component: {fileID: 1094350344}
+  m_Layer: 0
+  m_Name: stairs (101)
+  m_TagString: Base_t
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1094350343
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094350342}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 41.339, y: 0.47640204, z: 224.52228}
+  m_LocalScale: {x: 3.2461376, y: 3.246138, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8887791431351546932}
+  m_RootOrder: 91
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1094350345
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094350342}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.32, y: 0.32}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &1094350344
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094350342}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.32, y: 0.32}
+  m_EdgeRadius: 0.001
+--- !u!1 &1215832899
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1215832900}
+  - component: {fileID: 1215832902}
+  - component: {fileID: 1215832901}
+  m_Layer: 0
+  m_Name: stairs (106)
+  m_TagString: Base_t
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1215832900
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215832899}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 41.339, y: 2.530402, z: 224.52228}
+  m_LocalScale: {x: 3.2461376, y: 3.246138, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8887791431351546932}
+  m_RootOrder: 96
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1215832902
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215832899}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.32, y: 0.32}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &1215832901
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215832899}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.32, y: 0.32}
+  m_EdgeRadius: 0.001
+--- !u!1 &1281059455
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1281059456}
+  - component: {fileID: 1281059458}
+  - component: {fileID: 1281059457}
+  m_Layer: 0
+  m_Name: stairs (99)
+  m_TagString: Base_t
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1281059456
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281059455}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 43.321, y: 0.47640204, z: 224.52228}
+  m_LocalScale: {x: 3.2461376, y: 3.246138, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8887791431351546932}
+  m_RootOrder: 89
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1281059458
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281059455}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.32, y: 0.32}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &1281059457
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281059455}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.32, y: 0.32}
+  m_EdgeRadius: 0.001
+--- !u!1 &1360382509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1360382510}
+  - component: {fileID: 1360382512}
+  - component: {fileID: 1360382511}
+  m_Layer: 0
+  m_Name: stairs (105)
+  m_TagString: Base_t
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1360382510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360382509}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 40.279995, y: 1.510402, z: 224.52228}
+  m_LocalScale: {x: 3.2461376, y: 3.246138, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8887791431351546932}
+  m_RootOrder: 95
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1360382512
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360382509}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.32, y: 0.32}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &1360382511
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360382509}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.32, y: 0.32}
+  m_EdgeRadius: 0.001
+--- !u!1 &1641590478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1641590479}
+  - component: {fileID: 1641590481}
+  - component: {fileID: 1641590480}
+  m_Layer: 0
+  m_Name: stairs (102)
+  m_TagString: Base_t
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1641590479
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641590478}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 40.279995, y: 0.47640204, z: 224.52228}
+  m_LocalScale: {x: 3.2461376, y: 3.246138, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8887791431351546932}
+  m_RootOrder: 92
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1641590481
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641590478}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.32, y: 0.32}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &1641590480
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641590478}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.32, y: 0.32}
+  m_EdgeRadius: 0.001
 --- !u!1 &25942191258967581
 GameObject:
   m_ObjectHideFlags: 0
@@ -10,10 +982,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4871969222320734031}
   - component: {fileID: 324065414013941282}
-  - component: {fileID: 5206575567764180196}
+  - component: {fileID: 1420374276}
   m_Layer: 0
   m_Name: stairs (72)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70,7 +1042,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -82,7 +1054,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &5206575567764180196
+--- !u!61 &1420374276
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -91,7 +1063,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 25942191258967581}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -118,10 +1090,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7795505155228255327}
   - component: {fileID: 5634041789615644537}
-  - component: {fileID: 3031063347208716463}
+  - component: {fileID: 1949781656}
   m_Layer: 0
   m_Name: stairs (83)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -178,7 +1150,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -190,7 +1162,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &3031063347208716463
+--- !u!61 &1949781656
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -199,7 +1171,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 55477838901427148}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -226,10 +1198,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2341480227658627206}
   - component: {fileID: 8066595801700790677}
-  - component: {fileID: 5727656593424649586}
+  - component: {fileID: 1236484881}
   m_Layer: 0
   m_Name: stairs (88)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -286,7 +1258,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -298,7 +1270,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &5727656593424649586
+--- !u!61 &1236484881
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -307,7 +1279,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 211080309069427939}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -334,10 +1306,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7837132046552773405}
   - component: {fileID: 1738648433342999480}
-  - component: {fileID: 2789140469339605226}
+  - component: {fileID: 547301796}
   m_Layer: 0
   m_Name: stairs (59)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -394,7 +1366,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -406,7 +1378,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2789140469339605226
+--- !u!61 &547301796
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -415,7 +1387,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 277787942490422270}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -442,10 +1414,10 @@ GameObject:
   m_Component:
   - component: {fileID: 9195769426469627374}
   - component: {fileID: 5774477273722598767}
-  - component: {fileID: 8627955134855208375}
+  - component: {fileID: 1113845277}
   m_Layer: 0
   m_Name: stairs (78)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -502,7 +1474,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -514,7 +1486,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8627955134855208375
+--- !u!61 &1113845277
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -523,7 +1495,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 325441776312581857}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -550,10 +1522,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4281713636930359870}
   - component: {fileID: 4174030117006222272}
-  - component: {fileID: 2586066618550047811}
+  - component: {fileID: 1945250065}
   m_Layer: 0
   m_Name: stairs (77)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -610,7 +1582,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -622,7 +1594,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2586066618550047811
+--- !u!61 &1945250065
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -631,7 +1603,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 330818104246077276}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -658,10 +1630,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7515654192447572563}
   - component: {fileID: 8015433786621822970}
-  - component: {fileID: 4304402715211750272}
+  - component: {fileID: 166018321}
   m_Layer: 0
   m_Name: stairs (69)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -718,7 +1690,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -730,7 +1702,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &4304402715211750272
+--- !u!61 &166018321
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -739,7 +1711,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 400302104394636727}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -766,10 +1738,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8517285276373192964}
   - component: {fileID: 3806942711892723374}
-  - component: {fileID: 1995363457260793277}
+  - component: {fileID: 875235634}
   m_Layer: 0
   m_Name: stairs (82)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -826,7 +1798,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -838,7 +1810,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &1995363457260793277
+--- !u!61 &875235634
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -847,7 +1819,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 622911132689404945}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -874,10 +1846,10 @@ GameObject:
   m_Component:
   - component: {fileID: 745179745405295177}
   - component: {fileID: 5984495567284810142}
-  - component: {fileID: 7982459046470060854}
+  - component: {fileID: 801868246}
   m_Layer: 0
   m_Name: stairs (71)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -934,7 +1906,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -946,7 +1918,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &7982459046470060854
+--- !u!61 &801868246
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -955,7 +1927,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1680071097035032733}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -982,10 +1954,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4936248628491182915}
   - component: {fileID: 8132518452437083992}
-  - component: {fileID: 144321486721934168}
+  - component: {fileID: 1749220696}
   m_Layer: 0
   m_Name: stairs (86)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1042,7 +2014,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1054,7 +2026,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &144321486721934168
+--- !u!61 &1749220696
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1063,7 +2035,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 2121390746285839209}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1090,10 +2062,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4709837979932717027}
   - component: {fileID: 4517583687303646752}
-  - component: {fileID: 578877747647154091}
+  - component: {fileID: 519325599}
   m_Layer: 0
   m_Name: stairs (96)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1150,7 +2122,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1162,7 +2134,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &578877747647154091
+--- !u!61 &519325599
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1171,7 +2143,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 2202254639711797642}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1198,10 +2170,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4975042983826142136}
   - component: {fileID: 7505082485893089670}
-  - component: {fileID: 5731083451679395890}
+  - component: {fileID: 2142315098}
   m_Layer: 0
   m_Name: stairs (55)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1258,7 +2230,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1270,7 +2242,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &5731083451679395890
+--- !u!61 &2142315098
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1279,7 +2251,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 2227866338687530964}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1306,10 +2278,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7873739648740603938}
   - component: {fileID: 6250533858439099973}
-  - component: {fileID: 3779306192685802225}
+  - component: {fileID: 1009143354}
   m_Layer: 0
   m_Name: stairs (97)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1366,7 +2338,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1378,7 +2350,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &3779306192685802225
+--- !u!61 &1009143354
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1387,7 +2359,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 2851360876348374784}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1414,10 +2386,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7166933161129802528}
   - component: {fileID: 7087129757043541290}
-  - component: {fileID: 3348073156907991769}
+  - component: {fileID: 958672112}
   m_Layer: 0
   m_Name: stairs (60)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1474,7 +2446,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1486,7 +2458,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &3348073156907991769
+--- !u!61 &958672112
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1495,7 +2467,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 2901586122116055215}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1522,10 +2494,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4444326231358158095}
   - component: {fileID: 5969560569688541514}
-  - component: {fileID: 1428774605083016278}
+  - component: {fileID: 2088527642}
   m_Layer: 0
   m_Name: stairs (61)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1582,7 +2554,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1594,7 +2566,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &1428774605083016278
+--- !u!61 &2088527642
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1603,7 +2575,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 3008042698590790125}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1630,10 +2602,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4913535788531148922}
   - component: {fileID: 1450758130281329489}
-  - component: {fileID: 363911525852231161}
+  - component: {fileID: 1299786335}
   m_Layer: 0
   m_Name: stairs (91)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1690,7 +2662,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1702,7 +2674,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &363911525852231161
+--- !u!61 &1299786335
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1711,7 +2683,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 3300968483610544264}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1738,10 +2710,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3101956788024799696}
   - component: {fileID: 7499593834646663748}
-  - component: {fileID: 6988817480169743174}
+  - component: {fileID: 2030051998}
   m_Layer: 0
   m_Name: stairs (56)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1798,7 +2770,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1810,7 +2782,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &6988817480169743174
+--- !u!61 &2030051998
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1819,7 +2791,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 3479679407415379850}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1846,10 +2818,10 @@ GameObject:
   m_Component:
   - component: {fileID: 5532760717681271501}
   - component: {fileID: 6617420350306147955}
-  - component: {fileID: 8336784662111541003}
+  - component: {fileID: 1833427599}
   m_Layer: 0
   m_Name: stairs (70)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1906,7 +2878,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1918,7 +2890,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8336784662111541003
+--- !u!61 &1833427599
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1927,7 +2899,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 3571309083436153516}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1954,10 +2926,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7759861320549703756}
   - component: {fileID: 2391372095040007025}
-  - component: {fileID: 8466070743229133407}
+  - component: {fileID: 841807581}
   m_Layer: 0
   m_Name: stairs (87)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2014,7 +2986,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2026,7 +2998,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8466070743229133407
+--- !u!61 &841807581
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2035,7 +3007,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 3593787373913832279}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -2062,10 +3034,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7438587165473811902}
   - component: {fileID: 973477739374305610}
-  - component: {fileID: 1945081769113074220}
+  - component: {fileID: 612158851}
   m_Layer: 0
   m_Name: stairs (65)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2122,7 +3094,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2134,7 +3106,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &1945081769113074220
+--- !u!61 &612158851
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2143,7 +3115,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 3784336456110637234}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -2170,10 +3142,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8734241367852897557}
   - component: {fileID: 2946876213454493190}
-  - component: {fileID: 5146587444720169862}
+  - component: {fileID: 1422125246}
   m_Layer: 0
   m_Name: stairs (94)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2230,7 +3202,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2242,7 +3214,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &5146587444720169862
+--- !u!61 &1422125246
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2251,7 +3223,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 3874095623637598781}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -2278,10 +3250,10 @@ GameObject:
   m_Component:
   - component: {fileID: 5277719434936665621}
   - component: {fileID: 4856805261805129962}
-  - component: {fileID: 967349514482150164}
+  - component: {fileID: 58155919}
   m_Layer: 0
   m_Name: stairs (89)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2338,7 +3310,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2350,7 +3322,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &967349514482150164
+--- !u!61 &58155919
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2359,7 +3331,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 4287119982244049611}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -2386,10 +3358,10 @@ GameObject:
   m_Component:
   - component: {fileID: 722335404680546028}
   - component: {fileID: 7937101259489826035}
-  - component: {fileID: 5047906831029117391}
+  - component: {fileID: 956764032}
   m_Layer: 0
   m_Name: stairs (57)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2446,7 +3418,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2458,7 +3430,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &5047906831029117391
+--- !u!61 &956764032
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2467,7 +3439,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 4480113631657331407}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -2494,10 +3466,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2529001200207384576}
   - component: {fileID: 2957175922545131775}
-  - component: {fileID: 1499917081521775081}
+  - component: {fileID: 1505610625}
   m_Layer: 0
   m_Name: stairs (79)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2554,7 +3526,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2566,7 +3538,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &1499917081521775081
+--- !u!61 &1505610625
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2575,7 +3547,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 4604090429725290244}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -2602,10 +3574,10 @@ GameObject:
   m_Component:
   - component: {fileID: 826770661477437360}
   - component: {fileID: 8875471247939384911}
-  - component: {fileID: 2493570029521392918}
+  - component: {fileID: 852021171}
   m_Layer: 0
   m_Name: stairs (75)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2662,7 +3634,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2674,7 +3646,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2493570029521392918
+--- !u!61 &852021171
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2683,7 +3655,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 4625168109783961896}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -2710,10 +3682,10 @@ GameObject:
   m_Component:
   - component: {fileID: 395531866040754953}
   - component: {fileID: 1007392933477821401}
-  - component: {fileID: 8182972869185162219}
+  - component: {fileID: 184953423}
   m_Layer: 0
   m_Name: stairs (92)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2770,7 +3742,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2782,7 +3754,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8182972869185162219
+--- !u!61 &184953423
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2791,7 +3763,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 5275404180594283882}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -2818,10 +3790,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2139100276377635376}
   - component: {fileID: 3682468281813971479}
-  - component: {fileID: 3136223194254702954}
+  - component: {fileID: 662873873}
   m_Layer: 0
   m_Name: stairs (98)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2878,7 +3850,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2890,7 +3862,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &3136223194254702954
+--- !u!61 &662873873
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2899,7 +3871,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 5492695689360624700}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -2926,10 +3898,10 @@ GameObject:
   m_Component:
   - component: {fileID: 702314916441266963}
   - component: {fileID: 8896148759317807308}
-  - component: {fileID: 6708208901612792007}
+  - component: {fileID: 2034117061}
   m_Layer: 0
   m_Name: stairs (58)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2986,7 +3958,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2998,7 +3970,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &6708208901612792007
+--- !u!61 &2034117061
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3007,7 +3979,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 5604596086028031733}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -3034,10 +4006,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8031751457570685733}
   - component: {fileID: 2400732714624266571}
-  - component: {fileID: 8385828398846174461}
+  - component: {fileID: 1951730621}
   m_Layer: 0
   m_Name: stairs (68)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3094,7 +4066,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3106,7 +4078,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8385828398846174461
+--- !u!61 &1951730621
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3115,7 +4087,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 5705161122219710959}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -3142,10 +4114,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3221185977607889418}
   - component: {fileID: 2959045897712746996}
-  - component: {fileID: 4909666678872772776}
+  - component: {fileID: 992115301}
   m_Layer: 0
   m_Name: stairs (73)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3202,7 +4174,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3214,7 +4186,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &4909666678872772776
+--- !u!61 &992115301
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3223,7 +4195,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 5958446769144996054}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -3250,10 +4222,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8177216805159210101}
   - component: {fileID: 5838674258569031316}
-  - component: {fileID: 2203340766608116803}
+  - component: {fileID: 2075457195}
   m_Layer: 0
   m_Name: stairs (81)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3310,7 +4282,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3322,7 +4294,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2203340766608116803
+--- !u!61 &2075457195
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3331,7 +4303,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 6422225768674344292}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -3358,10 +4330,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3903704703832681497}
   - component: {fileID: 3629474448904042413}
-  - component: {fileID: 4846614633613166849}
+  - component: {fileID: 298453523}
   m_Layer: 0
   m_Name: stairs (63)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3418,7 +4390,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3430,7 +4402,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &4846614633613166849
+--- !u!61 &298453523
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3439,7 +4411,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 6442141889792765632}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -3466,10 +4438,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3480758622833626456}
   - component: {fileID: 5553244942517439038}
-  - component: {fileID: 1472607828654539868}
+  - component: {fileID: 1550403518}
   m_Layer: 0
   m_Name: stairs (84)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3526,7 +4498,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3538,7 +4510,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &1472607828654539868
+--- !u!61 &1550403518
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3547,7 +4519,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 6445574822409851046}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -3574,10 +4546,10 @@ GameObject:
   m_Component:
   - component: {fileID: 832587043433577864}
   - component: {fileID: 7425146976361982523}
-  - component: {fileID: 6916056923251305578}
+  - component: {fileID: 517288858}
   m_Layer: 0
   m_Name: stairs (74)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3634,7 +4606,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3646,7 +4618,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &6916056923251305578
+--- !u!61 &517288858
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3655,7 +4627,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 6579933763489285402}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -3682,10 +4654,10 @@ GameObject:
   m_Component:
   - component: {fileID: 475817914575294068}
   - component: {fileID: 5818197612451267058}
-  - component: {fileID: 6228087688490274006}
+  - component: {fileID: 1270650866}
   m_Layer: 0
   m_Name: stairs (85)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3742,7 +4714,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3754,7 +4726,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &6228087688490274006
+--- !u!61 &1270650866
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3763,7 +4735,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 6704652916069231272}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -3790,10 +4762,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3333867581983513304}
   - component: {fileID: 7383166441772708461}
-  - component: {fileID: 6561020163372116784}
+  - component: {fileID: 1850437117}
   m_Layer: 0
   m_Name: stairs (66)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3850,7 +4822,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3862,7 +4834,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &6561020163372116784
+--- !u!61 &1850437117
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3871,7 +4843,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 6730746375062879612}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -3898,10 +4870,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2391899289182022749}
   - component: {fileID: 5389611719955817420}
-  - component: {fileID: 7061421784964709141}
+  - component: {fileID: 2060305560}
   m_Layer: 0
   m_Name: stairs (80)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3958,7 +4930,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3970,7 +4942,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &7061421784964709141
+--- !u!61 &2060305560
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3979,7 +4951,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 7076511810668893886}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -4006,10 +4978,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3681009152927230976}
   - component: {fileID: 7730404126758103433}
-  - component: {fileID: 1637619137267483478}
+  - component: {fileID: 897422712}
   m_Layer: 0
   m_Name: stairs (54)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4066,7 +5038,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4078,7 +5050,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &1637619137267483478
+--- !u!61 &897422712
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4087,7 +5059,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 7091714978709707104}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -4114,10 +5086,10 @@ GameObject:
   m_Component:
   - component: {fileID: 25230862929973294}
   - component: {fileID: 2779988442038007336}
-  - component: {fileID: 167670603451948994}
+  - component: {fileID: 198108689}
   m_Layer: 0
   m_Name: stairs (76)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4174,7 +5146,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4186,7 +5158,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &167670603451948994
+--- !u!61 &198108689
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4195,7 +5167,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 7136354495200727674}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -4222,10 +5194,10 @@ GameObject:
   m_Component:
   - component: {fileID: 5476624732751438056}
   - component: {fileID: 7698999614765185829}
-  - component: {fileID: 13549280552092145}
+  - component: {fileID: 632841052}
   m_Layer: 0
   m_Name: stairs (95)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4282,7 +5254,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4294,7 +5266,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &13549280552092145
+--- !u!61 &632841052
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4303,7 +5275,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 7143651064604594767}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -4330,10 +5302,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2547650117889440441}
   - component: {fileID: 193084922586743231}
-  - component: {fileID: 3888510202079230616}
+  - component: {fileID: 671332734}
   m_Layer: 0
   m_Name: stairs (62)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4390,7 +5362,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4402,7 +5374,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &3888510202079230616
+--- !u!61 &671332734
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4411,7 +5383,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 7188919741393376705}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -4438,10 +5410,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1508923234257309294}
   - component: {fileID: 5827699949876912070}
-  - component: {fileID: 5455817293001874701}
+  - component: {fileID: 1789280170}
   m_Layer: 0
   m_Name: stairs (90)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4498,7 +5470,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4510,7 +5482,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &5455817293001874701
+--- !u!61 &1789280170
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4519,7 +5491,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 7889415216831572947}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -4546,10 +5518,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7591474220573173950}
   - component: {fileID: 2713250470664990641}
-  - component: {fileID: 4749304800737894998}
+  - component: {fileID: 1580985415}
   m_Layer: 0
   m_Name: stairs (64)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4606,7 +5578,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4618,7 +5590,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &4749304800737894998
+--- !u!61 &1580985415
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4627,7 +5599,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 7960295984512897080}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -4654,10 +5626,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1405777691365993812}
   - component: {fileID: 7911628862889219963}
-  - component: {fileID: 9089657625448010414}
+  - component: {fileID: 347922367}
   m_Layer: 0
   m_Name: stairs (93)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4714,7 +5686,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4726,7 +5698,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &9089657625448010414
+--- !u!61 &347922367
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4735,7 +5707,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8648129122999062180}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -4762,10 +5734,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791430892247456}
   - component: {fileID: 8887791430892247458}
-  - component: {fileID: 8887791430892247459}
+  - component: {fileID: 1103476415}
   m_Layer: 0
   m_Name: stairs (15)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4822,7 +5794,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4834,7 +5806,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791430892247459
+--- !u!61 &1103476415
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4843,7 +5815,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791430892247457}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -4870,10 +5842,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791430910608223}
   - component: {fileID: 8887791430910608217}
-  - component: {fileID: 8887791430910608222}
+  - component: {fileID: 1192566761}
   m_Layer: 0
   m_Name: stairs (25)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4930,7 +5902,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4942,7 +5914,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791430910608222
+--- !u!61 &1192566761
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4951,7 +5923,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791430910608220}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -4978,10 +5950,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791430926617215}
   - component: {fileID: 8887791430926617209}
-  - component: {fileID: 8887791430926617214}
+  - component: {fileID: 1679752807}
   m_Layer: 0
   m_Name: stairs (19)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5038,7 +6010,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5050,7 +6022,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791430926617214
+--- !u!61 &1679752807
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5059,7 +6031,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791430926617212}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -5086,10 +6058,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791430971235588}
   - component: {fileID: 8887791430971235590}
-  - component: {fileID: 8887791430971235591}
+  - component: {fileID: 350530055}
   m_Layer: 0
   m_Name: stairs (29)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5146,7 +6118,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5158,7 +6130,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791430971235591
+--- !u!61 &350530055
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5167,7 +6139,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791430971235589}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -5194,10 +6166,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791431056965259}
   - component: {fileID: 8887791431056965301}
-  - component: {fileID: 8887791431056965258}
+  - component: {fileID: 1543649423}
   m_Layer: 0
   m_Name: stairs (34)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5254,7 +6226,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5266,7 +6238,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791431056965258
+--- !u!61 &1543649423
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5275,7 +6247,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791431056965256}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -5302,10 +6274,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791431065284142}
   - component: {fileID: 8887791431065284136}
-  - component: {fileID: 8887791431065284137}
+  - component: {fileID: 1673530356}
   m_Layer: 0
   m_Name: stairs (39)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5362,7 +6334,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5374,7 +6346,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791431065284137
+--- !u!61 &1673530356
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5383,7 +6355,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791431065284143}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -5410,10 +6382,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791431077750027}
   - component: {fileID: 8887791431077750069}
-  - component: {fileID: 8887791431077750026}
+  - component: {fileID: 823923777}
   m_Layer: 0
   m_Name: stairs (10)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5470,7 +6442,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5482,7 +6454,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791431077750026
+--- !u!61 &823923777
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5491,7 +6463,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791431077750024}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -5518,10 +6490,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791431083395291}
   - component: {fileID: 8887791431083395269}
-  - component: {fileID: 8887791431083395290}
+  - component: {fileID: 156030001}
   m_Layer: 0
   m_Name: stairs (31)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5578,7 +6550,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5590,7 +6562,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791431083395290
+--- !u!61 &156030001
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5599,7 +6571,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791431083395288}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -5626,10 +6598,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791431154783017}
   - component: {fileID: 8887791431154783019}
-  - component: {fileID: 8887791431154783016}
+  - component: {fileID: 438850639}
   m_Layer: 0
   m_Name: stairs (51)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5686,7 +6658,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5698,7 +6670,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791431154783016
+--- !u!61 &438850639
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5707,7 +6679,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791431154783022}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -5734,10 +6706,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791431289622465}
   - component: {fileID: 8887791431289622467}
-  - component: {fileID: 8887791431289622464}
+  - component: {fileID: 635249402}
   m_Layer: 0
   m_Name: stairs (18)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5794,7 +6766,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5806,7 +6778,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791431289622464
+--- !u!61 &635249402
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5815,7 +6787,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791431289622470}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -5842,10 +6814,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791431293222307}
   - component: {fileID: 8887791431293222317}
-  - component: {fileID: 8887791431293222306}
+  - component: {fileID: 688135951}
   m_Layer: 0
   m_Name: stairs (27)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5902,7 +6874,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5914,7 +6886,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791431293222306
+--- !u!61 &688135951
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5923,7 +6895,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791431293222304}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -5950,10 +6922,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791431310536487}
   - component: {fileID: 8887791431310536481}
-  - component: {fileID: 8887791431310536486}
+  - component: {fileID: 362297328}
   m_Layer: 0
   m_Name: stairs (12)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6010,7 +6982,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6022,7 +6994,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791431310536486
+--- !u!61 &362297328
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6031,7 +7003,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791431310536484}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -6058,10 +7030,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791431312187786}
   - component: {fileID: 8887791431312187828}
-  - component: {fileID: 8887791431312187829}
+  - component: {fileID: 388343185}
   m_Layer: 0
   m_Name: stairs (48)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6118,7 +7090,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6130,7 +7102,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791431312187829
+--- !u!61 &388343185
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6139,7 +7111,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791431312187787}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -6166,10 +7138,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791431320469662}
   - component: {fileID: 8887791431320469656}
-  - component: {fileID: 8887791431320469657}
+  - component: {fileID: 414846115}
   m_Layer: 0
   m_Name: stairs (30)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6226,7 +7198,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6238,7 +7210,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791431320469657
+--- !u!61 &414846115
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6247,7 +7219,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791431320469663}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -6275,7 +7247,7 @@ GameObject:
   - component: {fileID: 8887791431351546932}
   m_Layer: 0
   m_Name: Stairs
-  m_TagString: Untagged
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6380,6 +7352,15 @@ Transform:
   - {fileID: 4709837979932717027}
   - {fileID: 7873739648740603938}
   - {fileID: 2139100276377635376}
+  - {fileID: 1281059456}
+  - {fileID: 400790252}
+  - {fileID: 1094350343}
+  - {fileID: 1641590479}
+  - {fileID: 841954002}
+  - {fileID: 231343828}
+  - {fileID: 1360382510}
+  - {fileID: 1215832900}
+  - {fileID: 400036941}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6393,10 +7374,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791431386288324}
   - component: {fileID: 8887791431386288326}
-  - component: {fileID: 8887791431386288327}
+  - component: {fileID: 1834378752}
   m_Layer: 0
   m_Name: stairs (41)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6453,7 +7434,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6465,7 +7446,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791431386288327
+--- !u!61 &1834378752
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6474,7 +7455,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791431386288325}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -6501,10 +7482,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791431405050442}
   - component: {fileID: 8887791431405050484}
-  - component: {fileID: 8887791431405050485}
+  - component: {fileID: 1760267441}
   m_Layer: 0
   m_Name: stairs (17)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6561,7 +7542,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6573,7 +7554,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791431405050485
+--- !u!61 &1760267441
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6582,7 +7563,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791431405050443}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -6609,10 +7590,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791431415891298}
   - component: {fileID: 8887791431415891308}
-  - component: {fileID: 8887791431415891309}
+  - component: {fileID: 603965442}
   m_Layer: 0
   m_Name: stairs (16)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6669,7 +7650,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6681,7 +7662,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791431415891309
+--- !u!61 &603965442
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6690,7 +7671,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791431415891299}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -6717,10 +7698,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791431434646802}
   - component: {fileID: 8887791431434646812}
-  - component: {fileID: 8887791431434646813}
+  - component: {fileID: 1508276804}
   m_Layer: 0
   m_Name: stairs (36)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6777,7 +7758,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6789,7 +7770,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791431434646813
+--- !u!61 &1508276804
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6798,7 +7779,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791431434646803}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -6825,10 +7806,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791431476340786}
   - component: {fileID: 8887791431476340796}
-  - component: {fileID: 8887791431476340797}
+  - component: {fileID: 1099262569}
   m_Layer: 0
   m_Name: stairs (45)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6885,7 +7866,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6897,7 +7878,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791431476340797
+--- !u!61 &1099262569
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6906,7 +7887,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791431476340787}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -6933,10 +7914,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791431483420338}
   - component: {fileID: 8887791431483420348}
-  - component: {fileID: 8887791431483420349}
+  - component: {fileID: 1485817112}
   m_Layer: 0
   m_Name: stairs (53)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6993,7 +7974,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7005,7 +7986,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791431483420349
+--- !u!61 &1485817112
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7014,7 +7995,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791431483420339}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -7041,10 +8022,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791431506638416}
   - component: {fileID: 8887791431506638418}
-  - component: {fileID: 8887791431506638419}
+  - component: {fileID: 1928926874}
   m_Layer: 0
   m_Name: stairs (38)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7101,7 +8082,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7113,7 +8094,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791431506638419
+--- !u!61 &1928926874
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7122,7 +8103,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791431506638417}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -7149,10 +8130,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791431599294855}
   - component: {fileID: 8887791431599294849}
-  - component: {fileID: 8887791431599294854}
+  - component: {fileID: 1652563179}
   m_Layer: 0
   m_Name: stairs (20)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7209,7 +8190,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7221,7 +8202,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791431599294854
+--- !u!61 &1652563179
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7230,7 +8211,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791431599294852}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -7257,10 +8238,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791431645779296}
   - component: {fileID: 8887791431645779298}
-  - component: {fileID: 8887791431645779299}
+  - component: {fileID: 1522890444}
   m_Layer: 0
   m_Name: stairs (47)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7317,7 +8298,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7329,7 +8310,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791431645779299
+--- !u!61 &1522890444
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7338,7 +8319,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791431645779297}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -7365,10 +8346,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791431743894115}
   - component: {fileID: 8887791431743894125}
-  - component: {fileID: 8887791431743894114}
+  - component: {fileID: 1248443632}
   m_Layer: 0
   m_Name: stairs (21)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7425,7 +8406,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7437,7 +8418,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791431743894114
+--- !u!61 &1248443632
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7446,7 +8427,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791431743894112}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -7473,10 +8454,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791431759320505}
   - component: {fileID: 8887791431759320507}
-  - component: {fileID: 8887791431759320504}
+  - component: {fileID: 399663558}
   m_Layer: 0
   m_Name: stairs (32)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7533,7 +8514,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7545,7 +8526,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791431759320504
+--- !u!61 &399663558
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7554,7 +8535,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791431759320510}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -7581,10 +8562,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791431797008994}
   - component: {fileID: 8887791431797009004}
-  - component: {fileID: 8887791431797009005}
+  - component: {fileID: 407485100}
   m_Layer: 0
   m_Name: stairs (11)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7641,7 +8622,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7653,7 +8634,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791431797009005
+--- !u!61 &407485100
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7662,7 +8643,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791431797008995}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -7689,10 +8670,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791431821767768}
   - component: {fileID: 8887791431821767770}
-  - component: {fileID: 8887791431821767771}
+  - component: {fileID: 1663696466}
   m_Layer: 0
   m_Name: stairs (42)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7749,7 +8730,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7761,7 +8742,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791431821767771
+--- !u!61 &1663696466
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7770,7 +8751,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791431821767769}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -7797,10 +8778,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791431851303790}
   - component: {fileID: 8887791431851303784}
-  - component: {fileID: 8887791431851303785}
+  - component: {fileID: 325172434}
   m_Layer: 0
   m_Name: stairs (37)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7857,7 +8838,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7869,7 +8850,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791431851303785
+--- !u!61 &325172434
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7878,7 +8859,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791431851303791}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -7905,10 +8886,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791431974257428}
   - component: {fileID: 8887791431974257430}
-  - component: {fileID: 8887791431974257431}
+  - component: {fileID: 1523194966}
   m_Layer: 0
   m_Name: stairs (35)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7965,7 +8946,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7977,7 +8958,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791431974257431
+--- !u!61 &1523194966
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7986,7 +8967,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791431974257429}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -8013,10 +8994,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791431978566414}
   - component: {fileID: 8887791431978566408}
-  - component: {fileID: 8887791431978566409}
+  - component: {fileID: 1704744878}
   m_Layer: 0
   m_Name: stairs (44)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8073,7 +9054,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8085,7 +9066,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791431978566409
+--- !u!61 &1704744878
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8094,7 +9075,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791431978566415}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -8121,10 +9102,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791432126589203}
   - component: {fileID: 8887791432126589213}
-  - component: {fileID: 8887791432126589202}
+  - component: {fileID: 115538141}
   m_Layer: 0
   m_Name: stairs (43)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8181,7 +9162,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8193,7 +9174,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791432126589202
+--- !u!61 &115538141
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8202,7 +9183,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791432126589200}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -8229,10 +9210,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791432173486927}
   - component: {fileID: 8887791432173486921}
-  - component: {fileID: 8887791432173486926}
+  - component: {fileID: 192864937}
   m_Layer: 0
   m_Name: stairs (22)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8289,7 +9270,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8301,7 +9282,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791432173486926
+--- !u!61 &192864937
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8310,7 +9291,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791432173486924}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -8337,10 +9318,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791432176199331}
   - component: {fileID: 8887791432176199341}
-  - component: {fileID: 8887791432176199330}
+  - component: {fileID: 1596242247}
   m_Layer: 0
   m_Name: stairs (26)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8397,7 +9378,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8409,7 +9390,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791432176199330
+--- !u!61 &1596242247
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8418,7 +9399,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791432176199328}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -8445,10 +9426,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791432220778811}
   - component: {fileID: 8887791432220778789}
-  - component: {fileID: 8887791432220778810}
+  - component: {fileID: 1182986551}
   m_Layer: 0
   m_Name: stairs (52)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8505,7 +9486,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8517,7 +9498,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791432220778810
+--- !u!61 &1182986551
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8526,7 +9507,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791432220778808}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -8553,10 +9534,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791432266940814}
   - component: {fileID: 8887791432266940808}
-  - component: {fileID: 8887791432266940809}
+  - component: {fileID: 1996816545}
   m_Layer: 0
   m_Name: stairs (24)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8613,7 +9594,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8625,7 +9606,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791432266940809
+--- !u!61 &1996816545
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8634,7 +9615,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791432266940815}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -8661,10 +9642,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791432312445948}
   - component: {fileID: 8887791432312445950}
-  - component: {fileID: 8887791432312445951}
+  - component: {fileID: 1006907507}
   m_Layer: 0
   m_Name: stairs (50)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8721,7 +9702,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8733,7 +9714,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791432312445951
+--- !u!61 &1006907507
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8742,7 +9723,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791432312445949}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -8769,10 +9750,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791432312763616}
   - component: {fileID: 8887791432312763618}
-  - component: {fileID: 8887791432312763619}
+  - component: {fileID: 384256090}
   m_Layer: 0
   m_Name: stairs (46)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8829,7 +9810,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8841,7 +9822,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791432312763619
+--- !u!61 &384256090
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8850,7 +9831,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791432312763617}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -8877,10 +9858,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791432449292183}
   - component: {fileID: 8887791432449292177}
-  - component: {fileID: 8887791432449292182}
+  - component: {fileID: 1542151697}
   m_Layer: 0
   m_Name: stairs (13)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8937,7 +9918,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8949,7 +9930,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791432449292182
+--- !u!61 &1542151697
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8958,7 +9939,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791432449292180}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -8985,10 +9966,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791432506851813}
   - component: {fileID: 8887791432506851815}
-  - component: {fileID: 8887791432506851812}
+  - component: {fileID: 265527896}
   m_Layer: 0
   m_Name: stairs (33)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9045,7 +10026,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9057,7 +10038,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791432506851812
+--- !u!61 &265527896
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9066,7 +10047,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791432506851834}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -9093,10 +10074,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791432549532795}
   - component: {fileID: 8887791432549532773}
-  - component: {fileID: 8887791432549532794}
+  - component: {fileID: 1410094407}
   m_Layer: 0
   m_Name: stairs (28)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9153,7 +10134,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9165,7 +10146,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791432549532794
+--- !u!61 &1410094407
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9174,7 +10155,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791432549532792}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -9201,10 +10182,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791432577912171}
   - component: {fileID: 8887791432577912213}
-  - component: {fileID: 8887791432577912170}
+  - component: {fileID: 1379949381}
   m_Layer: 0
   m_Name: stairs (23)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9261,7 +10242,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9273,7 +10254,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791432577912170
+--- !u!61 &1379949381
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9282,7 +10263,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791432577912168}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -9309,10 +10290,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791432666087021}
   - component: {fileID: 8887791432666087023}
-  - component: {fileID: 8887791432666087020}
+  - component: {fileID: 1519868490}
   m_Layer: 0
   m_Name: stairs (40)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9369,7 +10350,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9381,7 +10362,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791432666087020
+--- !u!61 &1519868490
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9390,7 +10371,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791432666087010}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -9417,10 +10398,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791432698742031}
   - component: {fileID: 8887791432698742025}
-  - component: {fileID: 8887791432698742030}
+  - component: {fileID: 335705594}
   m_Layer: 0
   m_Name: stairs (49)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9477,7 +10458,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9489,7 +10470,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791432698742030
+--- !u!61 &335705594
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9498,7 +10479,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791432698742028}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -9525,10 +10506,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8887791432937985993}
   - component: {fileID: 8887791432937985995}
-  - component: {fileID: 8887791432937985992}
+  - component: {fileID: 1016137413}
   m_Layer: 0
   m_Name: stairs (14)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9585,7 +10566,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9597,7 +10578,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8887791432937985992
+--- !u!61 &1016137413
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9606,7 +10587,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8887791432937985998}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -9633,10 +10614,10 @@ GameObject:
   m_Component:
   - component: {fileID: 692441217607614582}
   - component: {fileID: 9034594922828621006}
-  - component: {fileID: 7031912030673823240}
+  - component: {fileID: 855123857}
   m_Layer: 0
   m_Name: stairs (67)
-  m_TagString: Base
+  m_TagString: Base_t
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9693,7 +10674,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d16b76dbc7d73540b453e3fdde36482, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9705,7 +10686,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &7031912030673823240
+--- !u!61 &855123857
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9714,7 +10695,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 9073742367282531409}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e0dd1fe0544516f4c8be15154e94defa, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
